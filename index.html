@@ -101,6 +101,23 @@
     .paper .links { font-size: 0.95rem; margin: 0; }
     .paper .links a { margin-right: 1.1rem; }
 
+    blockquote.quote {
+      margin: 3rem 0 0;
+      padding: 0.2rem 0 0.2rem 1.25rem;
+      border-left: 3px solid var(--accent);
+    }
+    blockquote.quote p.text {
+      font-size: 1.25rem;
+      font-style: italic;
+      line-height: 1.5;
+      margin: 0 0 0.5rem;
+    }
+    blockquote.quote p.source {
+      font-size: 0.9rem;
+      color: var(--muted);
+      margin: 0;
+    }
+
     ul.plain { list-style: none; padding: 0; margin: 0; }
     ul.plain li { margin-bottom: 0.9rem; }
     ul.plain .where { color: var(--muted); font-size: 0.95rem; }
@@ -144,6 +161,14 @@
     <p>
       I am applying to PhD programs in economics for entry in Fall 2027. I am interested in how large infrastructure investments, such as data centers, change prices and competition in energy markets, and in applying modern empirical methods to questions in industrial organization.
     </p>
+    <p>
+      Outside of research, I love live music. My favorite piece is Beethoven's Seventh Symphony, here in <a href="https://www.youtube.com/playlist?list=PLm4I8tP6UbWapIl0DcQWDf0xhYQ_dLEu0">Carlos Kleiber's 1976 recording</a> with the Vienna Philharmonic.
+    </p>
+
+    <blockquote class="quote">
+      <p class="text">&ldquo;Accuracy is, in every case, advantageous to beauty, and just reasoning to delicate sentiment.&rdquo;</p>
+      <p class="source">David Hume, <em>An Enquiry Concerning Human Understanding</em>, &sect;1.8 &middot; <a href="https://davidhume.org/texts/e/1">Original text</a></p>
+    </blockquote>
   </section>
 
   <section id="research">
